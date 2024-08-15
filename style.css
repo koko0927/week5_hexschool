@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+/* 基本樣式設定 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+	font-family: "Lato", sans-serif;
+	/* 主要字體+次要字體 先英文後中文 */
+	line-height: 1.5;
+}
+
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: inherit; 
+	/* 跟著父層顏色 */
+}
+
+code{
+    font-family: "Roboto", sans-serif;
+    color:#198754 ;
+	font-weight: bold;
+}
+
+ol,ul{
+ list-style: none;
+ padding-left: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+/* 共通class */
+
+
+/* Navbar */
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' -25,
+  'opsz' 20
+}
+
+.navbar{
+	width: 296px;
+}
+
+.list-group{
+	width: 360px;
+}
+
+.card{
+	width: 584px;
+}
+
